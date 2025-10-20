@@ -1,0 +1,18 @@
+# CrowdCount Server Side Requirements
+# For the computer running the tracker/receiver
+
+# Deep Learning & Computer Vision
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Network Discovery
+zeroconf>=0.131.0
+
+# Data Processing
+pandas>=2.0.0

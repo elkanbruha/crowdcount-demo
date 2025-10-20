@@ -1,0 +1,15 @@
+# CrowdCount Camera Side Requirements
+# For the Raspberry Pi or camera streaming device
+
+# Computer Vision (lightweight for Pi)
+opencv-python>=4.8.0
+
+# Network Discovery
+zeroconf>=0.131.0
+
+# Basic dependencies (usually pre-installed on Pi)
+numpy>=1.24.0
+
+# Note: For Raspberry Pi, you may want to use opencv-python-headless
+# for better performance and smaller footprint:
+# opencv-python-headless>=4.8.0
