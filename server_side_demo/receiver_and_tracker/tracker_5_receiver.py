@@ -879,7 +879,7 @@ if __name__ == "__main__":
     import sys
     if len(sys.argv) == 1:
         # Default for testing
-        pi_ip = '192.168.1.43'  # Update this
+        pi_ip = '174.51.165.192'  # Update this
         model_path = 'models/yolo11s.pt'
         
         print(f"Using default IP: {pi_ip}")

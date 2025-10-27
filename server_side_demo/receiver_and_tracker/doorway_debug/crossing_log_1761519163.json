@@ -1,0 +1,83 @@
+[
+  {
+    "timestamp": 1761518958.430193,
+    "track_id": 2,
+    "direction": "right_to_left",
+    "confidence": 0.9662261009216309,
+    "path_length": 444.6116216677758,
+    "displacement": -202,
+    "duration": 4.861614942550659
+  },
+  {
+    "timestamp": 1761518963.519084,
+    "track_id": 1,
+    "direction": "right_to_left",
+    "confidence": 0.9462449550628662,
+    "path_length": 335.15425041633875,
+    "displacement": -255,
+    "duration": 2.3838729858398438
+  },
+  {
+    "timestamp": 1761518981.621502,
+    "track_id": 3,
+    "direction": "right_to_left",
+    "confidence": 0.9497030377388,
+    "path_length": 340.6110700399737,
+    "displacement": -290,
+    "duration": 0.9879708290100098
+  },
+  {
+    "timestamp": 1761519034.701927,
+    "track_id": 6,
+    "direction": "left_to_right",
+    "confidence": 0.9675989747047424,
+    "path_length": 538.9907097491133,
+    "displacement": 135,
+    "duration": 11.260379076004028
+  },
+  {
+    "timestamp": 1761519072.535743,
+    "track_id": 4,
+    "direction": "left_to_right",
+    "confidence": 0.9592252373695374,
+    "path_length": 198.84987951818084,
+    "displacement": 104,
+    "duration": 0.45740699768066406
+  },
+  {
+    "timestamp": 1761519096.7952871,
+    "track_id": 3,
+    "direction": "left_to_right",
+    "confidence": 0.9048182368278503,
+    "path_length": 385.5020352803304,
+    "displacement": 325,
+    "duration": 1.5610549449920654
+  },
+  {
+    "timestamp": 1761519115.9840481,
+    "track_id": 3,
+    "direction": "right_to_left",
+    "confidence": 0.9633810520172119,
+    "path_length": 209.73970744038235,
+    "displacement": -152,
+    "duration": 10.664077043533325
+  },
+  {
+    "timestamp": 1761519137.992237,
+    "track_id": 5,
+    "direction": "right_to_left",
+    "confidence": 0.9715492725372314,
+    "path_length": 181.5416635451909,
+    "displacement": -166,
+    "duration": 19.38503408432007
+  },
+  {
+    "timestamp": 1761519145.2809558,
+    "track_id": 3,
+    "direction": "right_to_left",
+    "confidence": 0.9543134570121765,
+    "path_length": 351.52520047238283,
+    "displacement": -297,
+    "duration": 2.349828004837036
+  }
+]
