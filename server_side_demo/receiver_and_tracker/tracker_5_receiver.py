@@ -852,9 +852,9 @@ def main():
                         help='Port number (default: 8485)')
     parser.add_argument('--debug', action='store_true',
                         help='Enable debug mode')
-    parser.add_argument('--conf', type=float, default=0.5,
+    parser.add_argument('--conf', type=float, default=0.3,
                         help='YOLO confidence threshold (default: 0.5)')
-    parser.add_argument('--iou', type=float, default=0.45,
+    parser.add_argument('--iou', type=float, default=0.3,
                         help='YOLO IOU threshold for NMS (default: 0.45)')
     
     args = parser.parse_args()

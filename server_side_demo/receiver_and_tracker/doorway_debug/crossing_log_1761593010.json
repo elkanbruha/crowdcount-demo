@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": 1761592952.7255511,
+    "track_id": 4,
+    "direction": "right_to_left",
+    "confidence": 0.8582426905632019,
+    "path_length": 435.7371404187328,
+    "displacement": -219,
+    "duration": 1.8383898735046387
+  },
+  {
+    "timestamp": 1761592966.848593,
+    "track_id": 3,
+    "direction": "right_to_left",
+    "confidence": 0.9575660228729248,
+    "path_length": 323.543327553554,
+    "displacement": -148,
+    "duration": 16.100460052490234
+  },
+  {
+    "timestamp": 1761592996.971473,
+    "track_id": 2,
+    "direction": "left_to_right",
+    "confidence": 0.9622943997383118,
+    "path_length": 344.39607296500054,
+    "displacement": 193,
+    "duration": 4.3326568603515625
+  }
+]
