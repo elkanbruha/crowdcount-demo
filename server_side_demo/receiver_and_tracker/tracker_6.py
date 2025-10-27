@@ -228,7 +228,7 @@ class OverheadDoorwayCounter:
         # API Configuration
         self.api_config = {
             'enabled': True,  # Set to False to disable API calls
-            'base_url': 'http://localhost:5000',  # Update with your actual API URL
+            'base_url': 'https://api.crowdcount.tech',  # Update with your actual API URL
             'user_id': 'Demo',
             'password': 'password',
             'timeout': 5  # API call timeout in seconds
@@ -312,7 +312,7 @@ class OverheadDoorwayCounter:
             return True  # Return success if API calls are disabled
             
         try:
-            url = f"{self.api_config['base_url']}/api/add_to_count"
+            url = f"{self.api_config['base_url']}/add_to_count"
             data = {
                 'user_id': self.api_config['user_id'],
                 'password': self.api_config['password'],
@@ -357,7 +357,7 @@ class OverheadDoorwayCounter:
             return True  # Return success if API calls are disabled
             
         try:
-            url = f"{self.api_config['base_url']}/api/sub_from_count"
+            url = f"{self.api_config['base_url']}/sub_from_count"
             data = {
                 'user_id': self.api_config['user_id'],
                 'password': self.api_config['password'],
