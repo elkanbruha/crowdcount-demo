@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": 1761682058.356734,
+    "track_id": 3,
+    "direction": "right_to_left",
+    "confidence": 0.764975905418396,
+    "duration": 7.059689044952393,
+    "total_crossings_by_person": 1,
+    "position": [
+      257,
+      229
+    ]
+  },
+  {
+    "timestamp": 1761682061.90942,
+    "track_id": 3,
+    "direction": "left_to_right",
+    "confidence": 0.8489201664924622,
+    "duration": 10.612375020980835,
+    "total_crossings_by_person": 2,
+    "position": [
+      334,
+      208
+    ]
+  },
+  {
+    "timestamp": 1761682082.708867,
+    "track_id": 1,
+    "direction": "left_to_right",
+    "confidence": 0.4712407886981964,
+    "duration": 2.282595157623291,
+    "total_crossings_by_person": 1,
+    "position": [
+      341,
+      242
+    ]
+  }
+]

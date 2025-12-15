@@ -1,0 +1,170 @@
+[
+  {
+    "timestamp": 1761608974.362325,
+    "track_id": 1,
+    "direction": "left_to_right",
+    "confidence": 0.9280529022216797,
+    "duration": 25.729593992233276,
+    "total_crossings_by_person": 1,
+    "position": [
+      396,
+      112
+    ]
+  },
+  {
+    "timestamp": 1761608977.7962399,
+    "track_id": 1,
+    "direction": "right_to_left",
+    "confidence": 0.9280529022216797,
+    "duration": 29.163508892059326,
+    "total_crossings_by_person": 2,
+    "position": [
+      300,
+      110
+    ]
+  },
+  {
+    "timestamp": 1761608980.15936,
+    "track_id": 1,
+    "direction": "left_to_right",
+    "confidence": 0.9280529022216797,
+    "duration": 31.526628971099854,
+    "total_crossings_by_person": 3,
+    "position": [
+      333,
+      85
+    ]
+  },
+  {
+    "timestamp": 1761608991.8531358,
+    "track_id": 1,
+    "direction": "right_to_left",
+    "confidence": 0.932636022567749,
+    "duration": 43.220404863357544,
+    "total_crossings_by_person": 4,
+    "position": [
+      311,
+      80
+    ]
+  },
+  {
+    "timestamp": 1761608994.113198,
+    "track_id": 1,
+    "direction": "left_to_right",
+    "confidence": 0.932636022567749,
+    "duration": 45.480467081069946,
+    "total_crossings_by_person": 5,
+    "position": [
+      329,
+      90
+    ]
+  },
+  {
+    "timestamp": 1761608995.115573,
+    "track_id": 1,
+    "direction": "right_to_left",
+    "confidence": 0.932636022567749,
+    "duration": 46.48284196853638,
+    "total_crossings_by_person": 6,
+    "position": [
+      301,
+      136
+    ]
+  },
+  {
+    "timestamp": 1761608997.660347,
+    "track_id": 1,
+    "direction": "left_to_right",
+    "confidence": 0.932636022567749,
+    "duration": 49.027616024017334,
+    "total_crossings_by_person": 7,
+    "position": [
+      344,
+      187
+    ]
+  },
+  {
+    "timestamp": 1761608998.356565,
+    "track_id": 1,
+    "direction": "right_to_left",
+    "confidence": 0.932636022567749,
+    "duration": 49.72383403778076,
+    "total_crossings_by_person": 8,
+    "position": [
+      303,
+      136
+    ]
+  },
+  {
+    "timestamp": 1761608999.5731351,
+    "track_id": 1,
+    "direction": "left_to_right",
+    "confidence": 0.932636022567749,
+    "duration": 50.940404176712036,
+    "total_crossings_by_person": 9,
+    "position": [
+      332,
+      135
+    ]
+  },
+  {
+    "timestamp": 1761609000.2236001,
+    "track_id": 1,
+    "direction": "right_to_left",
+    "confidence": 0.932636022567749,
+    "duration": 51.590869188308716,
+    "total_crossings_by_person": 10,
+    "position": [
+      304,
+      126
+    ]
+  },
+  {
+    "timestamp": 1761609001.309192,
+    "track_id": 1,
+    "direction": "left_to_right",
+    "confidence": 0.932636022567749,
+    "duration": 52.67646098136902,
+    "total_crossings_by_person": 11,
+    "position": [
+      339,
+      125
+    ]
+  },
+  {
+    "timestamp": 1761609002.037877,
+    "track_id": 1,
+    "direction": "right_to_left",
+    "confidence": 0.932636022567749,
+    "duration": 53.40514612197876,
+    "total_crossings_by_person": 12,
+    "position": [
+      300,
+      116
+    ]
+  },
+  {
+    "timestamp": 1761609002.897991,
+    "track_id": 1,
+    "direction": "left_to_right",
+    "confidence": 0.932636022567749,
+    "duration": 54.265259981155396,
+    "total_crossings_by_person": 13,
+    "position": [
+      363,
+      130
+    ]
+  },
+  {
+    "timestamp": 1761609003.693011,
+    "track_id": 1,
+    "direction": "right_to_left",
+    "confidence": 0.932636022567749,
+    "duration": 55.060280084609985,
+    "total_crossings_by_person": 14,
+    "position": [
+      305,
+      123
+    ]
+  }
+]

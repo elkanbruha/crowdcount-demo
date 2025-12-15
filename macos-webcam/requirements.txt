@@ -1,0 +1,15 @@
+# CrowdCount Webcam Demo Dependencies
+
+# Computer Vision
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Deep ReID (optional but recommended for better accuracy)
+torchreid>=0.2.5
+
+# Numerical
+numpy>=1.24.0

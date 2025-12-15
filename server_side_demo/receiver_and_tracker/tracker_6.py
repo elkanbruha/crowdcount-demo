@@ -204,7 +204,6 @@ class PersonTracker:
     
     def is_valid_tracker(self, min_path_length: float, min_confidence: float = 0.5) -> bool:
         """Check if this tracker represents a valid person (for filtering noise)"""
-        # Must have sufficient path length and confidence
         path_length = self.get_path_length()
         
         return (path_length >= min_path_length and 
@@ -228,7 +227,7 @@ class OverheadDoorwayCounter:
         # API Configuration
         self.api_config = {
             'enabled': True,  # Set to False to disable API calls
-            'base_url': 'https://api.crowdcount.tech',  # Update with your actual API URL
+            'base_url': 'https://api.crowdcount.tech',
             'user_id': 'Demo',
             'password': 'password',
             'timeout': 5  # API call timeout in seconds
@@ -779,7 +778,7 @@ class OverheadDoorwayCounter:
         rl_count = self.crossings[CrossingDirection.RIGHT_TO_LEFT]
         net_flow = lr_count - rl_count
         
-        cv2.putText(vis_frame, "OVERHEAD DOORWAY COUNTER",
+        cv2.putText(vis_frame, "CROWDCOUNT COUNTER",
                    (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
         cv2.putText(vis_frame, f"Total Crossings: {total_crossings}",
                    (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1)
@@ -816,7 +815,7 @@ class OverheadDoorwayCounter:
     
     def process_frames(self):
         """Main processing loop"""
-        cv2.namedWindow('Overhead Doorway Counter - Head Tracking', cv2.WINDOW_NORMAL)
+        cv2.namedWindow('CrowdCount Counter - Demo', cv2.WINDOW_NORMAL)
         
         print("\n" + "="*60)
         print("OVERHEAD DOORWAY COUNTER - Started")
@@ -861,7 +860,7 @@ class OverheadDoorwayCounter:
                 vis_frame = self.draw_visualization(frame, detections)
                 
                 # Show frame
-                cv2.imshow('Overhead Doorway Counter - Head Tracking', vis_frame)
+                cv2.imshow('CrowdCount Counter - Demo', vis_frame)
                 
                 # Track processing time
                 process_time = time.time() - process_start
